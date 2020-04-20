@@ -24,15 +24,21 @@ For our reproduction we will implement two illumination invariance methods and c
 
 **Alvarez et al.**
 
-An illumination-invariant image is a single channel image calculated by combining the three RGB colour channels in the image I_RGB  ∈ {I_R,I_G,I_B}. To compute the illumination invariant images, we use a single channel feature space combined with three linear sensors as follows for the method of Alvarez et al.:
+An illumination-invariant image is a single channel image calculated by combining the three RGB colour channels in the image I_RGB  ∈ {I_R,I_G,I_B}. To compute the illumination invariant images, we use a single channel feature space I combined with three linear sensors {R,G,B} as follows for the method of Alvarez et al.:
+
+![](images/formula1.jpg)
 
 Where are the tree RGB channels, , and is the logarithmic approximation for the division of two channels in an image , which is computes as follows: 
+
+![](images/formula2.jpg)
 
 Where is the value from dividing the two channels and .
 
 **Maddern et al.**
 
 To compute the image for this method, we again convert the 3-channel floating point RGB image into corresponding illumination invariant image as follows:
+
+![](images/formula3.jpg)
 
 Where .
 
