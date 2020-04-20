@@ -1,5 +1,5 @@
 # DeepLearning-CS4240-Paper-Reproduction
-##Our take on the Impact of Illumination-Invariant Image Pre-transformation for Contemporary Automotive Semantic Scene Understanding.
+## Our take on the Impact of Illumination-Invariant Image Pre-transformation for Contemporary Automotive Semantic Scene Understanding.
 
 In 2018, Naif Alshammari, Samet Akcay and Toby P. Breckon published their paper On the Impact of Illumination-Invariant Image Pre-transformation for Contemporary Automotive Semantic Scene Understanding. The authors of this paper realized that illumination changes in outdoor environments under non-ideal weather conditions have a negative impact on automotive scene understanding and segmentation performance. The paper presents an evaluation of illumination-invariant image transforms on the CamVid dataset, to see if this improves the state of the art in scene understanding performance.
 
