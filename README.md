@@ -28,7 +28,7 @@ An illumination-invariant image is a single channel image calculated by combinin
 
 ![](images/formula1.jpg)
 
-Where are the tree RGB channels, , and is the logarithmic approximation for the division of two channels in an image , which is computes as follows: 
+Where are I<sub>R</sub>, I<sub>G</sub>, I<sub>B</sub> the tree RGB channels, , and is the logarithmic approximation for the division of two channels in an image , which is computes as follows: 
 
 ![](images/formula2.jpg)
 
