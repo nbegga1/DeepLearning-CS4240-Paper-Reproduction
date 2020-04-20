@@ -6,13 +6,11 @@ In 2018, Naif Alshammari, Samet Akcay and Toby P. Breckon published their paper 
 As part of TU Delft&#39;s CS4240 Deep Learning course, we — Noureddine Begga, Hao Li and Zixuan Wan— attempt to give the reproduction of the results achieved in said paper a try. That is, we try to develop an implementation of the Deep Fully Convolutional Neural Network SegNet and preprocess the CamVid dataset with the illumination invariant image representation. More specifically, our goal is to achieve similar results as Table 1 of the paper (which is copied below).
 
 ![](images/table1.jpg)
-
 TABLE 1: Quantitative results are shown as accuracy of the CNN SegNet approach on CamVid test data for RGB and two methods.
 
 The Cambridge-driving Labeled Video Database (CamVid) is the first collection of videos with object class semantic labels, complete with metadata. The database provides ground truth labels that associate each pixel with one of [32 semantic classes](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/#ClassLabels).
 
-![](RackMultipart20200420-4-12k70s0_html_65f0c7ccaf16d13d.png)
-
+![](images/figure1.jpg)
 Figure 1: Obtained RGB images and their respective ground truth class labels
 
 **What is a illumination invariant image representation?**
