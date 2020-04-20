@@ -32,7 +32,7 @@ Where are I<sub>R</sub>, I<sub>G</sub>, I<sub>B</sub> the tree RGB channels, θ 
 
 ![](images/formula2.jpg)
 
-Where is the value from dividing the two channels and \( \alpha \ A \) = 5000.
+Where is x the value from dividing the two channels and alpha = 5000.
 
 **Maddern et al.**
 
@@ -40,7 +40,7 @@ To compute the image for this method, we again convert the 3-channel floating po
 
 ![](images/formula3.jpg)
 
-Where .
+Where alpha = 0.48.
 
 This illumination-invariant approach was proposed to improve visual localization, mapping and scene classification for autonomous road vehicles.
 
