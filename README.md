@@ -17,8 +17,7 @@ Figure 1: Obtained RGB images and their respective ground truth class labels
 
 An illumination invariant image representation is a colour representation computed from RGB that removes (or minimises) scene colour variations due to varying scene lighting conditions. This technique was introduced as an intrinsic image to represent the illumination invariant and intrinsic properties in the image [1] with illumination transforms generally computed with reference to the physical properties behind the capture and the presence of colour within the space. In most literature where a type of illumination invariance is applied had as an objective to remove shadows, and to improve scene classification and segmentation.
 
-![](RackMultipart20200420-4-12k70s0_html_c75233ddc0f1dcb4.png)
-
+![](images/figure2.jpg)
 Figure 2: An example of an RGB image followed by four different illumination invariant images, where all the illumination variations such as shadows are significantly reduced within the scenes.
 
 For our reproduction we will implement two illumination invariance methods and compare these with the results of the authors. For our reproduction we will use the methods of Maddern et al.[2] and Alvarez et al.[3].
@@ -43,7 +42,7 @@ This illumination-invariant approach was proposed to improve visual localization
 
 We will evaluate the performance of automotive scene understanding and segmentation using the SegNet [4] CNN architecture (Figure 3) with the two aforementioned illumination-invariant transformations.
 
-![](RackMultipart20200420-4-12k70s0_html_a99c37698089b0a.jpg)
+![](images/figure3.jpg)
 
 Figure 3: Architecture of the SegNet Convolutional Neural Network
 
