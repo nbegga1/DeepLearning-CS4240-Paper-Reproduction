@@ -32,7 +32,7 @@ Where are I<sub>R</sub>, I<sub>G</sub>, I<sub>B</sub> the tree RGB channels, θ 
 
 ![](images/formula2.jpg)
 
-Where is the value from dividing the two channels and \alpha = 5000.
+Where is the value from dividing the two channels and $\alpha$ = 5000.
 
 **Maddern et al.**
 
